@@ -1,0 +1,84 @@
+{
+  "title": "Small Claims Lawsuit Knowledge Acquisition",
+  "questions": [
+    {
+      "id": "plaintiff_info",
+      "text": "Plaintiff name / phone / email/ address.",
+      "type": "text",
+      "required": true,
+      "section": "1"
+    },
+    {
+      "id": "defendant_info",
+      "text": "What is the name, phone/email/address of the person you want to sue?",
+      "type": "text",
+      "required": true,
+      "section": "2"
+    },
+    {
+      "id": "claim_amount",
+      "text": "How much money does the other person owe you?",
+      "type": "currency",
+      "required": true,
+      "section": "3"
+    },
+    {
+      "id": "claim_reason",
+      "text": "Why do they owe you this money?",
+      "type": "textarea",
+      "required": true,
+      "section": "3"
+    },
+    {
+      "id": "evidence",
+      "text": "Do you have any proof of the money owed- receipts, evidence,estimates?",
+      "type": "textarea",
+      "required": true,
+      "section": "4"
+    },
+    {
+      "id": "claim_date",
+      "text": "What date did this happen? ",
+      "type": "text",
+      "required": true,
+      "section": "5"
+    },
+    {
+      "id": "asked_payment",
+      "text": "Did you ask the other person to pay you before considering going to court?",
+      "type": "radio",
+      "options": ["Yes", "No"],
+      "required": true,
+      "section": "6"
+    },
+    {
+      "id": "payment_request_details",
+      "text": "If yes, how did you ask? Do you have proof? If not, then why didn't you ask for your money or property?",
+      "type": "textarea",
+      "required": true,
+      "section": "7"
+    },
+    {
+      "id": "venue_reason",
+      "text": "Why do you want to file your case in Alameda County court?",
+      "type": "text",
+      "required": true,
+      "section": "8"
+    },
+    {
+      "id": "previous_claims",
+      "text": "How many small claims have you filed in the last 12 months?",
+      "type": "number",
+      "required": true,
+      "section": "9"
+    },
+    {
+      "id": "claim_over_2500",
+      "text": "Are you asking for more than $2,500?",
+      "type": "radio",
+      "options": ["Yes", "No"],
+      "required": true,
+      "section": "10"
+    }
+  ]
+}

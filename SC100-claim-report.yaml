@@ -1,0 +1,94 @@
+---
+# Small Claims Case Analysis Framework (CLAIMS)
+framework_name: "CLAIMS Framework for Small Claims"
+version: "1.0"
+last_updated: "2025-04-12"
+
+# Case Information
+case:
+  court: "Alameda County Small Claims Court"
+  filing_date_planned: "2025-04-12"
+
+# C - Claim details
+claim:
+  type: "Money" # Options: Money, Property, Automobile, Contract, Damage, Injury
+  summary: "Defendant purchased laptop but failed to pay agreed amount"
+  amount: 750.00
+  justification: "Price agreed upon in email exchange"
+
+# L - Legal basis
+legal_basis:
+  primary_claim_type: "Breach of contract"
+  elements_to_prove:
+    - "Valid contract existed (offer, acceptance, consideration)"
+    - "Performance by plaintiff (delivery of laptop)"
+    - "Breach by defendant (failure to pay)"
+    - "Damages ($750 purchase price)"
+  applicable_laws:
+    - "California Civil Code § 1549 (contract formation)"
+
+# A - Anticipated defenses
+anticipated_defenses:
+  - defense: "Product quality issues"
+    response: "No complaints made when laptop was delivered or in response to payment requests"
+  - defense: "Different terms than alleged"
+    response: "Written email evidence establishes clear terms"
+
+# I - Information about parties
+parties:
+  plaintiff:
+    name: "Alice Smith"
+    address: "123 Main St, Oakland, CA 94612"
+    phone: "(510) 555-1234"
+    email: "alicesmith@email.com"
+    characterization: "Seller"
+  defendant:
+    name: "Bob Johnson"
+    address: "456 Oak Ave, Oakland, CA 94618"
+    phone: "Unknown"
+    email: "bobjohnson@email.com"
+    characterization: "Buyer"
+  relationship: "One-time seller and buyer with no prior relationship"
+
+# M - Money timeline & evidence
+timeline:
+  - date: "2025-03-01"
+    event: "Bob agreed via email to buy laptop for $750"
+  - date: "2025-03-01"
+    event: "Alice delivered the laptop to Bob in person"
+  - date: "2025-04-05"
+    event: "Alice emailed Bob requesting payment"
+  - date: "2025-04-10"
+    event: "Alice sent a follow-up email requesting payment"
+  - date: "2025-04-12"
+    event: "After receiving no response, planning to file small claims case"
+
+evidence:
+  - item: "Email dated March 1, 2025"
+    proves: "Bob's agreement to purchase laptop for $750"
+  - item: "Plaintiff testimony about delivery"
+    proves: "Laptop was delivered to defendant"
+  - item: "Follow-up emails (April 5 & 10)"
+    proves: "Attempted to resolve before filing"
+
+# S - Strength assessment & relief sought
+jurisdictional_requirements:
+  venue_justification: "Defendant lives in Alameda County (Oakland, CA)"
+  pre_filing_steps:
+    - "Sent two emails requesting payment"
+  filing_eligibility: "$750 is well below the $12,500 small claims limit in California"
+  previous_claims_12_months: 0
+
+requested_relief:
+  primary_amount: 750.00
+  filing_fees: 30.00
+  total_requested: 780.00
+
+case_strength:
+  strengths:
+    - "Written evidence of agreement"
+    - "Clear terms"
+    - "Appropriate jurisdiction"
+  weaknesses:
+    - "No receipt or written acknowledgment of delivery"
+  overall_assessment: "Strong case with documentary evidence of agreement"

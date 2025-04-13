@@ -1,0 +1,26 @@
+Prompt: Legal Report Generator from Intake  + Small Claims Case Analysis Framework (CLAIMS)
+Input:
+A JSON array of question/response pairs collected from a small claims intake form.
+A YAML-based CLAIMS Framework template used to structure legal reasoning.
+Task:
+Interpret the responses in context and map them to the corresponding sections of the CLAIMS framework.
+Use this mapping to generate a clear, logically structured small claims legal report.
+Instructions:
+Analyze the intake responses to determine:
+Who the plaintiff and defendant are
+What the legal issue is
+What the claim amount is
+How did Plaintiff determine this amount
+What  evidence supports the claimed amount 
+Whether pre-litigation efforts were made by Plaintiff before suing
+Jurisdictional and procedural eligibility
+Populate each section of the CLAIMS framework:
+C – Claim: nature of dispute, amount, and summary
+L – Legal basis: applicable laws and elements to prove
+A – Anticipated defenses and rebuttals
+I – Information about parties
+M – Timeline and evidence
+S – Strength assessment and recommended relief
+Generate a professional legal report suitable for internal legal review or client-facing summary.
+Output:
+A detailed legal case report with structured headings (e.g., Plaintiff Details, Legal Theory, Timeline, Strengths), based on the CLAIMS model.

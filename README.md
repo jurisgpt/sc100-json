@@ -1,4 +1,5 @@
 # SC100-JSON
+<img width="871" alt="image" src="https://github.com/user-attachments/assets/e9b7f433-565f-4a50-8d5a-cc86e58c2ec3" />
 
 A structured data framework for California Small Claims Court form SC-100 intake data.
 
